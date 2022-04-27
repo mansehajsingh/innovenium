@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
+import Navbar, { navItems } from "../../components/Navbar";
 import styles from "./styles.module.css";
 
 const HomePage = ({}) => {
     return (
         <>
             <title>Innovenium</title>
-            <Navbar />
+            <Navbar activeItem={navItems.home}/>
             <div className={styles.filler_div}>
 
             </div>

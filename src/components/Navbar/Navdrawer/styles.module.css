@@ -1,0 +1,38 @@
+.dr_links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.dr_link {
+    color: #FFF;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-left: solid 5px #242526;
+}
+
+.dr_link:hover {
+    border-left: solid 5px #FFF;
+    transition: 0.3s ease;
+}
+
+.download {
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+.social_icon {
+    color: #FFF;
+    margin: 0 8px;
+}
